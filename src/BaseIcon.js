@@ -2,10 +2,11 @@
  * Created by Jeepeng on 2018/10/12.
  */
 import Taro, { PureComponent } from '@tarojs/taro';
+import { Component } from 'react'
 import { Text } from '@tarojs/components';
 import PropTypes from 'prop-types'
 
-class BaseIcon extends PureComponent {
+class BaseIcon extends Component {
   static options = {
     addGlobalClass: true
   }

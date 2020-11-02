@@ -3,10 +3,11 @@
  */
 
 import Taro, { PureComponent } from '@tarojs/taro';
+import { Component } from 'react'
 import { Text } from '@tarojs/components';
 import PropTypes from 'prop-types'
 
-class FontAwesome extends PureComponent {
+class FontAwesome extends Component {
   static options = {
     addGlobalClass: true
   }
